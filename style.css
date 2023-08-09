@@ -45,8 +45,25 @@ a:visited {
   flex-basis: 50rem;
   background-color: var(--color-dark--1);
   padding: 3rem 5rem 4rem 5rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   display: flex;
   flex-direction: column;
+}
+
+.reset__container {
+  display: flex;
+  justify-content: center;
+}
+
+.reset {
+  width: auto;
+  border: 0;
+  border-radius: 2px;
+  padding: 0.5rem 1rem;
+  margin: 1rem 0;
+  color: white;
+  background: var(--color-brand--2);
+  cursor: pointer;
 }
 
 .logo {
